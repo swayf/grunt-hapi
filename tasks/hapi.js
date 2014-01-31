@@ -11,6 +11,7 @@ module.exports = function(grunt) {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       server: null,
+      server_create: null,
       bases: {'/': '.'},
       noasync: false
     });
